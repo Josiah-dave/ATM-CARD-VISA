@@ -3,7 +3,7 @@
 }
 .card{
     background: whitesmoke;
-    height: 50vh;
+    height: 55vh;
     border-radius: 20px !important;
     position: relative;
     overflow: hidden;
@@ -11,7 +11,7 @@
 }
 .card-back{
     /* position: absolute; */
-    height: 50vh;
+    height: 55vh;
     border-radius: 20px !important;
     position: relative;
     overflow: hidden;

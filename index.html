@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM || CARD</title>
+    <link rel="stylesheet" href="./plugins/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.css">
+</head>
+<body>
+   
+    <div class="container-fluid mt-5">
+
+        <div class="row">
+            <div class="col-md-5 card-box">
+                <div class="atm-form" width="100%">
+                        <div class="card-number">
+                            <input type="text" maxlength="16" placeholder="Enter Your Card number" class="number" id="num">
+                        </div>
+                        <div class="card-date">
+                            <select name="month" id="month" class="month">
+                                <option value="">Month</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <select name="year" id="year" class="year">
+                                <option value="">Year</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                                <option value="2031">2031</option>
+                            </select>
+                        </div>
+                        <div class="card-name">
+                            <input type="text" placeholder="Enter your Name" class="name" id="name">
+                        </div>
+                        <div class="card-cvv">
+                            <input type="text" maxlength="3" placeholder="Enter CVV" class="cvv" id="cvv">
+                        </div>
+                    </div> 
+    
+            </div>
+            
+
+
+            <div class="col-md-5 m-3">
+                <div class="card shadow" width="100%">
+                   <img src="./Access-bank-removebg-preview.png" alt="" width="100%" class="tag  ml-3 mt-2"> 
+
+                        <div class="chip ml-3" ><img src="./icons8-chip-card-40.png" width="13%" alt=""></div>
+
+                   <div class="contain">
+                    <div class="arrow ml-2" ></div>
+                    <p class="card-number" id="number">0987-5543-4243-5589</p>
+                   </div>
+                   <div class="contain2">
+                    <div class="dash"></div>
+                    <i><p class="visa">VISA</p></i>
+                   </div>
+
+                   <div class="date-area">
+                  <div class="date">
+                    <span class="Month" id="monthd">01 </span> / <span class="year" id="yeard"> 24</span>
+                  </div>
+                    <p class="target">
+                        VALID <br>
+                        THRU
+                    </p>
+                   </div>
+                   <p><i class="fa fa-wifi" aria-hidden="true"></i></p>
+
+                 <div class="card-holder">
+                    <p class="name" id="named">DAVID JOSIAH .I</p>
+                 </div>
+                       <div class="strike" width=""></div>
+                       <div class="strikes" width=""></div>
+                       <div class="strikes1" width=""></div>
+                       <div class="strikes2" width=""></div>
+                       <div class="strikes3" width=""></div>
+                       <div class="strikes4" width=""></div>
+                       <div class="strikes5" width=""></div>
+                       <div class="strikes6" width=""></div>
+                       <div class="strikes7" width=""></div>
+                       <div class="strikes8" width=""></div>
+                       <div class="strikes9" width=""></div>
+                       <div class="strikes10" width=""></div>
+                       <div class="strikes11" width=""></div>
+                       <div class="strikes12" width=""></div>
+                       <div class="strikes13" width=""></div>
+                       <div class="strikes14" width=""></div>
+                       <div class="strikes15" width=""></div>
+                   
+                </div>
+
+            </div>
+
+
+
+
+            <div class="col-md-5 m-3"></div>
+            <div class="col-md-5 m-3">
+                <div class="card-back shadow" width="100%">
+                   <img src="./Access-bank-removebg-preview.png" alt="" width="30%" class="tag2"> 
+                    <div class="black"></div>
+                    <div class="gray mt-4 ml-3"></div>
+                    <div class="cvv-bod">
+                        <div class="card-cvv mt-2 ml-2">
+                            <i><p class="cvv" id="cvvd" maxlength="3">432</p></i>
+                         </div>
+                    </div>
+                        
+
+                
+                   
+                   
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+<script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,358 @@
+.tag{
+    width: 40%;
+}
+.card{
+    background: whitesmoke;
+    height: 50vh;
+    border-radius: 20px !important;
+    position: relative;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+.card-back{
+    /* position: absolute; */
+    height: 50vh;
+    border-radius: 20px !important;
+    position: relative;
+    overflow: hidden;
+    /* top: -24rem;
+    left: 40rem;
+    z-index: 999999999999; */
+    background: whitesmoke;
+}
+.tag2{
+    position: relative;
+    bottom: -16.5rem;
+    left: 22rem;
+}
+.black{
+    background: #000;
+    height: 9vh;
+}
+.gray{
+    background: rgba(182, 180, 180, 0.589);
+    height: 9vh;
+    width: 50%;
+}
+.cvv-bod{
+    background: rgba(248, 223, 223, 0.589);
+    height: 7vh;
+    width: 10%;
+    position: absolute;
+    top: 8.2rem;
+    right: 12.3rem;
+}
+
+.fa-wifi{
+    transform: rotateZ(90deg);
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    z-index: 999;
+    color: rgb(38,39,95);
+    font-size: 40px;
+}
+
+
+.row{
+    position: relative;
+}
+
+
+.contain{
+    position: absolute;
+    font-size: 40px;
+    left: 4rem;
+    font-weight: 600;
+    z-index: 9999999;
+    margin-top: 150px;
+    letter-spacing: 1px;
+}
+.dash{
+    width: 15%;
+    height: 1vh;
+    background: rgb(38,39,95);
+    position: absolute;
+    bottom: 3.3rem;
+    left: -0.2rem;
+}
+.card-holder{
+    position: absolute;
+    font-size: 25px;
+    left: 2rem;
+    font-weight: 600;
+    z-index: 9999999;
+    top: 16.5rem;
+    letter-spacing: 1px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.date-area{
+    position: absolute;
+    font-size: 16px;
+    line-height: 15px;
+    left: 14rem;
+    font-weight: 600;
+    z-index: 9999999;
+    top: 13rem;
+    letter-spacing: 1px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    font-size: 30px;
+    /* line-height: 15px; */
+    left: 3.5rem;
+    font-weight: 600;
+    z-index: 9999999;
+    top: 0.5rem;
+    letter-spacing: 2px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.arrow{
+    position: absolute;
+    left: -4rem;
+    bottom: 2rem;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top: 0;
+    border-bottom: 25px solid black;
+    transform: rotateZ(-90deg);
+ 
+}
+
+
+.contain2{
+    color: rgb(38,39,95);
+    position: absolute;
+    font-size: 40px;
+    left: 26rem;
+    font-weight: 800;
+    z-index: 9999999;
+    top: 15rem;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.strike{
+    background: rgb(230, 158, 4);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: 9rem;
+    
+}
+
+.strikes{
+       background: rgba(238, 239, 239, 0.74);
+ 
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: 7rem;
+    
+} 
+.strikes1{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: 5rem;
+    
+} 
+.strikes2{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: 3rem;
+    
+} 
+.strikes3{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: 1rem;
+    
+} 
+.strikes4{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -1rem;
+    
+} 
+.strikes5{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -3rem;
+    
+} 
+.strikes6{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -5rem;
+    
+} 
+.strikes7{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -7rem;
+    
+} 
+.strikes8{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -9rem;
+    
+} 
+.strikes9{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -11rem;
+    
+} 
+.strikes10{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -13rem;
+    
+} 
+.strikes11{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -15rem;
+    
+} 
+.strikes12{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -17rem;
+    
+} 
+.strikes13{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -19rem;
+    
+} 
+.strikes14{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -21rem;
+    
+} 
+.strikes15{
+       background: rgba(238, 239, 239, 0.74);
+    height: 1.5vh;
+    width: 90% !important;
+    position: absolute;
+    transform: rotateZ(-45deg) !important;
+    transform: skew(45deg) ;
+    top: 9.4rem;
+    right: -23rem;
+    
+}
+
+/* form */
+
+.card-box{
+    width: 500px;
+    background: rgb(194, 192, 192);
+    box-shadow: 0 0 0.2rem grey;
+  margin: 20px 40px;
+    padding: 25px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.atm-form{
+    padding: 20px;
+}
+.atm-form input{
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+.atm-form select{
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
